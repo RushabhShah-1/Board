@@ -4,6 +4,7 @@ const isProtectedRoute = createRouteMatcher(["/(.*)", "/"]);
 
 export default clerkMiddleware((auth, req) => {
   if (isProtectedRoute(req)) auth().protect();
+  console.log("Middleware exe");
 });
 
 export const config = {

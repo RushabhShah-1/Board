@@ -10,6 +10,7 @@ interface DashboardPageProps {
 }
 export default function Home({ searchParams }: DashboardPageProps) {
   const { organization } = useOrganization();
+  console.log("Home Page");
   return (
     <>
       <div className="flex-1 h-[calc(100%-80px)] p-6">

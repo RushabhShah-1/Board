@@ -1,8 +1,9 @@
 export default {
   providers: [
     {
-      domain: "https://clerk.rushabhshah.live",
+      domain: "https://optimum-pheasant-56.clerk.accounts.dev",
       applicationID: "convex",
     },
   ],
 };
+//"https://clerk.rushabhshah.live",

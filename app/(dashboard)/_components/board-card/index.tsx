@@ -4,11 +4,11 @@ import { formatDistanceToNow } from "date-fns";
 import { useAuth } from "@clerk/nextjs";
 import { Overlay } from "./overlay";
 import { Footer } from "./footer";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Actions } from "@/components/actions";
+import { Skeleton } from "../../../../components/ui/skeleton";
+import { Actions } from "../../../../components/actions";
 import { MoreHorizontal } from "lucide-react";
-import { api } from "@/convex/_generated/api";
-import { useApiMutation } from "@/hooks/use-api-mutation";
+import { api } from "../../../../convex/_generated/api";
+import { useApiMutation } from "../../../../hooks/use-api-mutation";
 import { toast } from "sonner";
 interface BoardCardProps {
   id: string;

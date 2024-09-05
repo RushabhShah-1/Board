@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
-import { cn } from "../lib/utils";
+import { cn } from "../../../../lib/utils";
+
 interface FooterProps {
   title: string;
   authorLabel: string;

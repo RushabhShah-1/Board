@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://rushabhshah.live",
+      domain: "https://clerk.rushabhshah.live",
       applicationID: "convex",
     },
   ],
